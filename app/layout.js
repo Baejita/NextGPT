@@ -7,6 +7,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import Providers from "./providers";
 
 export const metadata = {
   title: "GPTGenius",
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
           <SignedIn>
             <UserButton />
           </SignedIn> */}
-          {children}
+          <Providers>{children}</Providers>
         </body>
       </html>
     </ClerkProvider>

@@ -17,7 +17,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        mytheme: {
+        garden: {
           primary: "#F16D1D",
           secondary: "#0C396D",
           accent: "#199AD2",
@@ -40,4 +40,30 @@ module.exports = {
     ],
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        garden: {
+          primary: "#F16D1D",
+          secondary: "#0C396D",
+          accent: "#199AD2",
+          error: "#Ff2c2c",
+          neutral: "#3d4451",
+          "base-100": "#ffffff",
+          "base-200": "#fff7f2",
+        },
+      },
+      {
+        coffee: {
+          primary: "#f7fbff",
+          secondary: "#0C396D",
+          accent: "#199AD2",
+          error: "#Ff2c2c",
+          neutral: "#3d4451",
+          "base-100": "#041e3d",
+          "base-200": "#020d21",
+        },
+      },
+    ],
+  },
 };

@@ -7,7 +7,7 @@ const MemberProfile = async () => {
   return (
     <div className="px-4 flex items-center gap-2">
       <UserButton afterSignOutUrl="/" />
-      <p className="text-sm">{user.emailAddresses[0].emailAddress}</p>
+      <p className="text-sm px-4">{user.emailAddresses[0].emailAddress}</p>
     </div>
   );
 };
