@@ -61,7 +61,7 @@ module.exports = {
           error: "#Ff2c2c",
           neutral: "#3d4451",
           "base-100": "#041e3d",
-          "base-200": "#020d21",
+          "base-200": "#041e3d",
         },
       },
     ],
