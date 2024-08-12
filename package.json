@@ -11,16 +11,15 @@
   "dependencies": {
     "@clerk/nextjs": "currentVersion",
     "@prisma/client": "^5.5.2",
-    "@tanstack/react-query": "^5.8.1",
-    "@tanstack/react-query-devtools": "^5.8.1",
+    "@tanstack/react-query": "^5.51.23",
+    "@tanstack/react-query-devtools": "^5.51.23",
     "axios": "^1.6.1",
-   "next": "currentVersion",
+    "next": "currentVersion",
     "openai": "^4.14.2",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0"
-   
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
